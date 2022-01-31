@@ -1,0 +1,13 @@
+﻿id,vendor_id,name,description,price
+1,1,Biryani,Biryani,300
+2,1,Chiken 65,Chiken,200
+3,1,Chiken Lollipop,Starter,200
+4,2,Grilled Fish,Fish,200
+5,2,Manchuria,Veg,200
+6,4,Chiken Mandi,Chiken,300
+7,4,Goat Mandi,Goat,400
+8,4,Fish Mandi,Fish,400
+9,3,Butta bojanam,veg,500
+10,3,Full Meals,Veg,300
+11,5,Dosa,Veg,100
+12,5,Idli,veg,100

@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: food-service
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/food_items
+    username: root
+    password: Test123!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  mvc:
+    format:
+      date: dd-M-yyyy hh:mm a
+  batch:
+    initialize-schema: ALWAYS
+    job:
+      enabled: false
+
+server:
+  port: 8084
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+
+info:
+  app:
+    name: ${spring.application.name}
+csv:
+  file:
+    location: src/main/resources
